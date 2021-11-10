@@ -1,0 +1,41 @@
+@import './sass/index';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  color: $black;
+  background-color: $bgColor;
+}
+body,
+#root {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  @include headline1;
+}
+h2 {
+  @include headline2;
+}
+h3 {
+  @include headline3;
+}
+h4 {
+  @include headline4;
+}
+h5 {
+  @include headline5;
+}
+h6 {
+  @include headline6;
+}
+p {
+  @include body1;
+}

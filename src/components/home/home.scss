@@ -1,0 +1,8 @@
+@import '../../sass/index';
+
+.container {
+  @include container;
+}
+.center {
+  @include center;
+}

@@ -1,0 +1,23 @@
+@import '../../sass/index';
+
+.card {
+  background-color: $cardBg;
+  border-radius: 0.25rem;
+  border: 1px solid $border;
+  padding: 1.5rem;
+  min-width: 400px;
+  .events-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.title {
+  margin-bottom: 1.5rem;
+}
+.btn {
+  @include primary_button;
+}
+
+.tc {
+  @include tc;
+}
